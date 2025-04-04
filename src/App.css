@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700;800;900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  background-color: rgb(125, 125, 125);
+  border-radius: 4px;
+
+}
+.carousel-control-prev, .carousel-control-next{
+  width: 50px !important;
+}
+.carousel {
+  display: flex  !important;
+width: 80% !important;
+margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+  .carousel {
+    display: block  !important;
+  width: 100% !important;
+
+  }
+
+}
+@media screen and (max-width:640px){
+  .carousel-control-prev-icon,.carousel-control-next-icon{
+    display: none !important;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+footer{
+background-color: #343433;;
 }
-
-.App-link {
-  color: #61dafb;
+.sub{
+  box-shadow: 0 -5px 20px 0 rgba(56,74,235,.1);
+  transform: translateY(160px);
 }
+.navSelect{
+  box-shadow: 0 -5px 20px 0 rgba(56,74,235,.1);
 
-@keyframes App-logo-spin {
+}
+.sub button{
+  background-color: #25806C;
+  transition: all 0.5s;
+}
+.sub button:hover{
+  background-color: #196a58;
+
+}
+nav,.form{
+  box-shadow: 0px 2px 7px  rgb(215, 216, 218);
+
+}
+.cardsPages{
+  background-image: url("./images/backgroundPages55.webp");
+  background-size: cover;
+  background-position: right;
+}
+li a{
+  text-decoration: none;
+  color: #343433;
+}
+.cardAbout{
+ transform: translate(300px,-200px);
+ background-color: #474747;
+}
+.parag{
+  color: #414536;
+}
+.cardsAbout img{
+  box-shadow: 0px 2px 7px  rgb(215, 216, 218);
+padding: 10px;
+border-radius: 7px;
+}
+.contactCard .cards{
+  padding: 15px;
+  box-shadow: 5px 5px 20px 0 rgba(56,74,235,.2);
+  border-radius: 6px;
+
+}
+/* @keyframes motor {
   from {
-    transform: rotate(0deg);
+    left: 37%;
   }
   to {
-    transform: rotate(360deg);
-  }
+    left: 80%;  }
+}
+.motor{
+  animation: motor  3s linear;
+} */
+ .rtl{
+  direction: rtl;
+  font-family: 'Tajawal' , serif !important;
+
+ }
+ 
+.fontArabic{
+  font-family: 'Tajawal' , serif !important;
+}
+.lft{
+  direction: ltr !important;
 }

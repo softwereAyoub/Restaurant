@@ -1,0 +1,111 @@
+
+@media screen and (max-width:500px) {
+    h1{
+       font-size: 48px !important;
+       font-weight: bolder;
+       
+    }
+    .center{
+        padding: 0 30px !important;
+    }
+    }
+@media screen and (max-width:850px) {
+   nav ul{
+    flex-direction: column;
+    gap: 15px;
+   } 
+   nav .ul1{
+    display: none;
+   }
+}
+
+
+@media screen and (max-width:850px) {
+    nav .menuButton{
+   display: block;
+    } 
+
+    .welcome{
+        flex-direction: column-reverse;
+    }
+    .welcomeContent{
+        align-items: center;
+    }
+ }
+
+ @media screen and (max-width:1350px) {
+.aboutSection{
+    flex-direction: column-reverse;
+    gap: 180px;
+}
+.cardAbout{
+    position: static;
+    transform: translate(0px,0px);
+    display: flex;
+    
+}
+.cardAbout{
+    position: absolute;
+  transform: translateY(-170px);
+}
+.cardAbout2{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.paragAbout{
+    width: 90%;
+}
+ }
+
+ @media (min-width: 1350px) {
+    .cardAbout2 img {
+        width: 90%;
+    }
+}
+
+ @media screen and (max-width:1074px) {
+    .aboutSection3{
+  display: flex;
+  flex-direction:column;
+gap: 50px;
+
+     }
+     nav .orderButton{
+        display: none;
+    }
+     .aboutCard{
+        width: 100%;
+     }
+ }
+
+ @media screen and (max-width:860px) {
+    .cardAbout{
+        position: absolute;
+      transform: translateY(-170px);
+    }
+ }
+
+
+
+ @media screen and (max-width:1244px) {
+    .contactInput{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+    }
+    .contactInput div{
+        width: 100% !important;
+    }
+    .contactInput div input{
+        width: 100% !important;
+   
+    }
+ }
+
+ @media screen and (max-width:1090px) {
+    #motor{
+        width: 400px;
+    }
+ }

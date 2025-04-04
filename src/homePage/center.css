@@ -1,0 +1,31 @@
+.overlay{
+    opacity: 0.3;
+   height: 100%;
+   width: 100%;
+/* background: #333; */
+background: linear-gradient(to right,#373636 45%,#33333330);
+
+   position: absolute;
+   top: 0;
+
+   left: 0;
+} 
+
+.home{
+    background-image: url("../images/backgroundPages55.webp");
+    background-size: cover;
+    background-position: right;
+}
+/* *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+} */
+@keyframes center {
+    from {
+      opacity: 0;
+    }
+    to {
+opacity: 1;    }
+  }
+.center{
+animation: center 3s ;
+}
