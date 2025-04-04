@@ -47,7 +47,7 @@ default:
   const [hidden,setHidden]=useState(true)
     return(
     <header className="flex justify-center">
-        <nav className={langue == 'ar' ? " z-50 py-[30px] px-[40px] justify-around flex-wrap max-md:items-center  flex items-end w-[95%] fixed  bg-white rounded-[10px] my-[15px]  rtl " : " z-50 py-[30px] flex-wrap px-[40px] w-[95%]  max-md:items-center justify-around  flex items-end fixed  bg-white rounded-[10px] my-[15px]   "}>
+        <nav className={langue == 'ar' ? " z-50 py-[30px] px-[40px] justify-around flex-wrap max-md:items-center  flex items-end w-[90%] fixed  bg-white rounded-[10px] my-[15px]  rtl " : " z-50 py-[30px] flex-wrap px-[40px] w-[90%]  max-md:items-center justify-around  flex items-end fixed  bg-white rounded-[10px] my-[15px]   "}>
       <img className="max-md:w-[150px]   max-md:pb-[7px] " src={require('../images/logo.webp')}/>
         <ul className="ul1 flex justify-evenly  mb-[0px] h-[45px] w-[45%] items-center ">
 
