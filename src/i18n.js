@@ -24,7 +24,7 @@ const resources = {
         "ButtonMenu2":"MENU",
         "ButtonMenu":"GO TO MENU",
 
-        "ButtonSubscribe2":"Subscribe Now",
+        "ButtonSubscribe":"Subscribe",
 "placeHolderSubcsribe":"Email",
 
         "MenuTitle": "Special Menu",
